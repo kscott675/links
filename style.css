@@ -1,5 +1,43 @@
 * {
   margin: 0;
+  flex-wrap: wrap;
+  overflow: scroll;
 }
 
+#img {
+  border: 10px dotted palevioletred;
+  object-position: bottom 30px top 100px;
+  object-fit: cover;
+  min-height: 450px;
+  min-width: 450px;
+  max-height: 450px;
+  max-width: 450px;
+  border-radius: 50%;
+  justify-content: flex-start;
+  align-content: center;
+  margin-top: 20px;
+}
 
+#name {
+  border: 10px dotted palevioletred;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20%;
+  max-width: fit-content;
+  max-height: fit-content;
+  align-content: center;
+}
+
+.icons {
+  overflow: hidden;
+  border: 10px dotted palevioletred;
+  min-width: 100px;
+  max-width: 500px;
+  min-height: 100px;
+  max-height: 500px;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.links {
+  border: 10px dotted palevioletred;
+}
