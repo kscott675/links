@@ -30,10 +30,8 @@
 .icons {
   overflow: hidden;
   border: 10px dotted palevioletred;
-  min-width: 100px;
-  max-width: 500px;
-  min-height: 100px;
-  max-height: 500px;
+  width: 130px;
+  height: 130px;
   flex-direction: row;
   margin: 30px;
 }
