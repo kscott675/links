@@ -127,16 +127,20 @@ blockquote, q {
 }
 
 .txt {
-  font-size: 40px;
+  font-size: 20px;
+  margin-inline-start: 30px;
   font-family: 'Poppins', sans-serif;
   text-justify: center;
   text-align: center;
   border: 10px dotted palevioletred;
-  width: fit-content;
-  height: fit-content;
-  display: block;
-  margin: auto;
-  margin-inline-start: 15%;
+  align-content: flex-start;
+  justify-content: flex-start;
+  object-fit: cover;
+  max-width: fit-content;
+  max-height: fit-content;
+  display: inline-block;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .txt:hover{
