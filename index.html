@@ -1,106 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <body>
-    <div>
-      <img id="profile_photo" src="Photos/4E450E09-049B-418F-B0D5-85362AD9190A_1_105_c.jpeg" alt="headshot">
-      <header id="name"> Kiowa Scott </header>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kiowa Scott</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@500;600&family=Roboto&family=Roboto+Slab&family=Syne:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <img id="userPhoto" src="https://i.ibb.co/3yWZ6rm/IMG-5396-2.jpg" alt="User Photo">
+  <a class="icon" id="userName" target="_blank">
+    <h1><span>Kiowa Scott</span></h1>
+  </a>
+  <div class="Icon-Section">
+    <div class="icon-container">
+      <a class="icon" href="https://www.youtube.com/watch?v=3XMr0jdlr-E" target="_blank"><i class="fa fa-youtube-play"></i></a>
+      <a class="icon" href="https://dev.to/kscott675" target="_blank"><i class="fa fa-rss"></i></a>
+      <a class="icon" href="https://github.com/kscott675" target="_blank"><i class="fa fa-github-alt"></i></a>
+      <a class="icon" href="https://www.instagram.com/reel/Cy3STGvNNVa/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
     </div>
-    <div class="icons">
-        <a href="https://www.instagram.com/reel/Cy3STGvNNVa/?hl=en">
-          <img class="logo_icon" src= "Photos/5296765_camera_instagram_instagram logo_icon.svg" alt="instagram">
-        </a>
-      </div>
-      <div class="icons">
-        <a href="https://www.youtube.com/watch?v=3XMr0jdlr-E">
-          <img class="logo_icon" src="Photos/3146788_youtube_logo_icon.svg" alt="youtube">
-        </a>
-      </div>
-      <div class="icons">
-        <a href="https://dev.to/kscott675">
-          <img class="logo_icon" src="Photos/3994398_blog_feed_media_news_rss_icon.svg" alt="blog">
-        </a>
-      </div>
-      <div class="icons" id="github">
-        <a href="https://github.com/kscott675">
-          <img class= "logo_icon" src="Photos/4373133_alt_github_logo_logos_icon.svg" alt="github">
-        </a>
-      </div>
-  
-    <div id="python" class="web_links">
-      <a href="https://www.codecademy.com/catalog/language/python">
-        <img class="link_img"src="Photos/4518857_python_icon.svg" alt="free python lessons">
-        <h1 class="txt">Free Python Lessons</h1>
-      </a>
-    </div>
-    <div class="web_links">
-      <a href="https://www.apprenticeship.gov/apprenticeship-job-finder">
-        <img class="link_img" src="Photos/Screenshot 2023-10-30 at 2.08.28 PM.png" alt="apprenticeships">
-        <h1 class="txt">Apprenticeship Search Tool</h1>
-      </a>
-    </div>
-    <div class="web_links">
-      <a href="https://www.pinterest.com/pin/1055599904827611/">
-        <img class="link_img" src="Photos/518713.png" alt="linux">
-        <h1 class="txt">Popular Linux Commands (Downloadable)</h1>
-      </a>
-    </div>
-    <div class="web_links">
-      <a href="https://www.hackerrank.com/domains/python"> <img class="link_img" src="Photos/hacker.svg" alt="python practice">
-      <h1 class="txt"> Python Practice Problems </h1>
-      </a>
-    </div>
-      <div class="web_links">
-      <a href="https://www.splunk.com/en_us/training/pearson-vue-registration-form.html?_gl=1*qrs44g*_ga*MzUxMTcxMDI4LjE3MDAwNjIxNjM.*_ga_GS7YF8S63Y*MTcwMDA2MjE2My4xLjAuMTcwMDA2MjE2My42MC4wLjA.*_ga_5EPM2P39FV*MTcwMDA2MjE2My4xLjAuMTcwMDA2MjE2Ni4wLjAuMA..&_ga=2.177768293.198169264.1700062165-351171028.1700062163"> <img class="link_img" src="Photos/certificate.svg" alt="splunk cert">
-      <h1 class="txt">Free Splunk Cloud Certified Metrics User Certification</h1>
-      </a>
-    </div>
-    
-    <!-- 
-  - Single file SVG animation
-  - * can be used as CSS backgroud
-  - * total size is less than 2kb!
-  -->
-  
-  <svg preserveAspectRatio="xMidYMid slice" viewBox="10 10 80 80">
-      <defs>
-          <style>
-              @keyframes rotate {
-             0% {
-                      transform: rotate(0deg);
-                  }
-                  100% {
-                      transform: rotate(360deg);
-                  }
-              }
-              .out-top {
-                  animation: rotate 20s linear infinite;
-                  transform-origin: 13px 25px;
-              }
-              .in-top {
-                  animation: rotate 10s linear infinite;
-                  transform-origin: 13px 25px;
-              }
-              .out-bottom {
-                  animation: rotate 25s linear infinite;
-                  transform-origin: 84px 93px;
-              }
-              .in-bottom {
-                  animation: rotate 15s linear infinite;
-                  transform-origin: 84px 93px;
-              }
-          </style>
-      </defs>
-      <path fill="#9b5de5" class="out-top" d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z"/>
-      <path fill="#f15bb5" class="in-top" d="M20.6,4.1C11.6,1.5-1.9,2.5-8,11.2-16.3,23.1-8.2,45.6,7.4,50S42.1,38.9,41,24.5C40.2,14.1,29.4,6.6,20.6,4.1Z"/>
-      <path fill="#00bbf9" class="out-bottom" d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z"/>
-      <path fill="#00f5d4" class="in-bottom" d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"/>
-  </svg>
-  
-  <div class="links">
-      <a href="https://dev.to/uuuuuulala/making-background-blob-animation-in-just-15kb-step-by-step-guide-2482" target="_blank">tutorial<img class="icon" src="https://ksenia-k.com/img/icons/link.svg"></a>
   </div>
-  </body>
-  </head>
+  <footer style="text-align:center;">
+  </footer>
+  <div id="links">
+    <a class="link" href="https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner" target="_blank"><i class="fa fa-amazon" style="padding:10px"></i> Free AWS Training</a>
+    <a class="link" href="https://www.nist.gov/itl/smallbusinesscyber/planning-guides/nist-cybersecurity-framework" target="_blank"><i class="fa fa-shield" style="padding:10px"></i>NIST Cybersecurity Framework</a>
+    <a class="link" href="https://www.freecodecamp.org/news/ultimate-beginners-python-course/" target="_blank"><i class="fa fa-free-code-camp" style="padding:10px"></i>Free Python Lessons </a>
+    <a class="link" href="link_img" src="https://www.apprenticeship.gov/apprenticeship-job-finder" target="_blank"><i class="fa fa-briefcase" style="padding:10px"></i>Apprenticeship Search Tool</a>
+      <a class="link" href="https://codepen.io/pen/" target="_blank"><i class="fa fa-codepen" style="padding:10px"></i>Free HTML/CSS IDE</a>
+    <a class="link" href="https://www.pinterest.com/pin/1055599904827611/" target="_blank"><i class="fa fa-linux" style="padding:10px"></i>Popular Linux Commands</a>
+  </div>
+  <footer class="footer"><i class="fa fa-code" style="padding:10px"></i>Engineered by:</a>
+  Kiowa Scott
+</footer>
+
+  <!-- Javascript -->
+  <script src="https://kit.fontawesome.com/7e482ae4fd.js"></script>
+</body>
+</html>
